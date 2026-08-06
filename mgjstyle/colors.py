@@ -29,8 +29,8 @@ __all__ = [
 MGJ_CAT = [
     "#960B00",  # 0 dark red
     "#FEC830",  # 1 gold
-    "#818D29",  # 2 olive
-    "#0F69B5",  # 3 blue
+    "#0F69B5",  # 2 blue
+    "#818D29",  # 3 olive
     "#39143F",  # 4 dark plum
     "#8B9083",  # 5 grey-green
     "#3A6260",  # 6 teal-green
@@ -49,7 +49,7 @@ MGJ_SEQ = [
 
 # --- semantic roles ---------------------------------------------------------
 
-PRIMARY = MGJ_CAT[3]   #: default accent — one series, one colour
+PRIMARY = MGJ_CAT[2]   #: default accent — one series, one colour
 DEEP = MGJ_CAT[4]      #: emphasis — the highlighted / winning case
 POS = MGJ_CAT[6]       #: "good", improvement
 NEG = MGJ_CAT[0]       #: "bad", loss
