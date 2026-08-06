@@ -27,15 +27,16 @@ __all__ = [
 
 #: Categorical palette (9 colours), in order.
 MGJ_CAT = [
-    "#39143F",  # 0 dark plum
-    "#0F69B5",  # 1 blue
-    "#66A7C9",  # 2 light blue
-    "#818D29",  # 3 olive
-    "#FEC830",  # 4 gold
-    "#960B00",  # 5 dark red
+    "#960B00",  # 0 dark red
+    "#FEC830",  # 1 gold
+    "#818D29",  # 2 olive
+    "#0F69B5",  # 3 blue
+    "#39143F",  # 4 dark plum
+    "#8B9083",  # 5 grey-green
     "#3A6260",  # 6 teal-green
-    "#52051A",  # 7 wine
-    "#8B9083",  # 8 grey-green
+    "#66A7C9",  # 7 light blue
+    "#52051A",  # 8 wine
+    
 ]
 
 #: Sequential ramp (21 steps), dark -> light.
@@ -48,13 +49,13 @@ MGJ_SEQ = [
 
 # --- semantic roles ---------------------------------------------------------
 
-PRIMARY = MGJ_CAT[1]   #: default accent — one series, one colour
-DEEP = MGJ_CAT[0]      #: emphasis — the highlighted / winning case
+PRIMARY = MGJ_CAT[3]   #: default accent — one series, one colour
+DEEP = MGJ_CAT[4]      #: emphasis — the highlighted / winning case
 POS = MGJ_CAT[6]       #: "good", improvement
-NEG = MGJ_CAT[5]       #: "bad", loss
-GOLD = MGJ_CAT[4]      #: attention, annotation
-MUTED = MGJ_CAT[8]     #: context, reference lines, ignored series
-INK = "#201018"        #: text, axes and ticks (a near-black with a plum cast)
+NEG = MGJ_CAT[0]       #: "bad", loss
+GOLD = MGJ_CAT[1]      #: attention, annotation
+MUTED = MGJ_CAT[5]     #: context, reference lines, ignored series
+INK = "#201018"      #: text, axes and ticks (a near-black with a plum cast)
 
 # --- colormaps --------------------------------------------------------------
 
